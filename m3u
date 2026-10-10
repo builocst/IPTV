@@ -119,7 +119,6 @@ https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/vtv7-avc1_56000
 https://vips-livecdn.fptplay.net/live/media/vtv9/live247-hls-avc/vtv9-avc1_5600000=10000-mp4a_131600=20000.m3u8
 #EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/HCpqatZ.png",VTV10
 https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/vtv10-avc1_5600000=10000-mp4a_131600=20000.m3u8
-
 #-----------------------HTV-------------------------------#
 #EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.ibb.co/dfGZxST/cchtv1.webp" tvg-id="22b8cd8d92ab071051b41b2c09a65736",HTV1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -156,6 +155,82 @@ https://freem3u.xyz/api/live/play.m3u8?vid=12
 https://freem3u.xyz/api/live/play.m3u8?vid=13
 #EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.ibb.co/vhLGXcK/cchtvcplus.webp" tvg-id="fd51b6c6836ec943e7ad21f0036f879e",HTVC Plus
 https://freem3u.xyz/api/live/play.m3u8?vid=132
+#-----------------------VTVcab-------------------------------#
+#EXTINF:-1 tvg-id="onviegiaitri" group-title="📺 VTVcab" tvg-logo="https://i.ytimg.com/vi/fyT_xa-g-Pk/hq720.jpg", ON Vie Giải Trí
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=180
+#EXTINF:-1 tvg-id="onphimviet" group-title="📺 VTVcab" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/ONPHIMVIET.png", ON Phim Việt
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vmttv.dpdns.org/tv360/?id=vtvcab-2-phim-viet-hd
+#EXTINF:-1 tvg-id="onsports" group-title="📺 VTVcab" tvg-logo="https://r2.epg.io.vn/2026-09-17/16.png", On Sports 50fps
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
+https://livevlisctcdnw.seenow.vn/Live_DASHDRM2/THETHAO_HD/manifest.mpd
+#EXTINF:-1 tvg-id="onmovies" group-title="📺 VTVcab" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/onmovies.png", On Movies - You TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=181
+#EXTINF:-1 tvg-id="onechannel" group-title="📺 VTVcab" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/onechannel.png", ON E- Channel
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=182
+#EXTINF:-1 tvg-id="onsportsplus" group-title="📺 VTVcab" tvg-logo="https://r2.epg.io.vn/2026-09-17/19.png", On Sports + 50fps
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
+https://livevliatmcdw.seenow.vn/live/data8/HAY_TV/Live_DASHDRM/HAY_TV.mpd
+#EXTINF:-1 tvg-id="ono2tv" group-title="📺 VTVcab" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/ono2tv.png", On O2TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=136
+#EXTINF:-1 tvg-id="onbibi" group-title="📺 VTVcab" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/onbibi.png" catchup="default" catchup-days="2" catchup-source="http://sv.cvtv.xyz:3000/mytvod.m3u8?id=205&time=${start}&offset=${duration}", On BiBi
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=178
+#EXTINF:-1 tvg-id="oncine" group-title="📺 VTVcab" tvg-logo="https://i.ytimg.com/vi/rwhsuTvSXxo/maxresdefault.jpg" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtvcab10-on-cine/${start}/${offset}", ON Cine
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=176
+#EXTINF:-1 tvg-id="onstyle" group-title="📺 VTVcab" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/onstyle.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtvcab12-style-tv/${start}/${offset}", ON Style TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=184
+#EXTINF:-1 tvg-id="onmusic" group-title="📺 VTVcab" tvg-logo="https://img-zlr1.tv360.vn/image1/2023/07/20/10/1689822524259/0f3a4d1ebfaf_640_360.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtvcab15/${start}/${offset}", On Music
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=185
+#EXTINF:-1 tvg-id="onfootball" group-title="📺 VTVcab" tvg-logo="https://r2.epg.io.vn/2026-09-17/26.png", On Football 50fps
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inpustream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3d73b3a9b89462ebf7911004ea3b3b9:2e547a81ff90aa02648cb9e3f79e7339
+https://livevliatmcdw.seenow.vn/live/data8/BONGDA_HD/Live_DASHDRM/BONGDA_HD.mpd
+#EXTINF:-1 tvg-id="ontrending" group-title="📺 VTVcab" tvg-logo="https://i.ibb.co/k1ccQNr/vcab17.webp", ON TRENDING TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=186
+#EXTINF:-1 tvg-id="onviedramas" group-title="📺 VTVcab" tvg-logo="https://i.ytimg.com/vi/4SqDlPT8oEI/maxresdefault.jpg" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vie-dramas-hd/${start}/${offset}", ON Vie Dramas
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?vid=177
+#EXTINF:-1 tvg-id="onvfamily" type="stream" group-title="📺 VTVcab" tvg-logo="https://i.ibb.co/HHfL7Dq/cocab20.webp", ON V Family
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://freem3u.xyz/api/live/play.m3u8?vid=187
+#EXTINF:-1 tvg-id="onkids" group-title="📺 VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/onkids5_1675158859.webp" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtvcab21-cartoon-kid/${start}/${offset}", On Kids
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://freem3u.xyz/api/live/play.m3u8?vid=179
+#EXTINF:-1 tvg-id="onlife" group-title="📺 VTVcab" tvg-logo="https://img-ali1.tv360.vn/image1/2023/07/19/09/1689732652862/f124f55c3587_640_360.png" catchup="append" catchup-days="2" catchup-source="https://api.vthanhtivi.pw/v1/dvr/vieon/vtvcab22-life-tv/${start}/${offset}", On Life
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+https://freem3u.xyz/api/live/play.m3u8?vid=188
+#EXTINF:-1 tvg-id="ongolf" group-title="📺 VTVcab" tvg-logo="https://r2.epg.io.vn/2026-09-17/33.png", On Golf
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vmttv.dpdns.org/tv360/?id=vtvcab-23-golf-channel
+#EXTINF:-1 tvg-id="onmovies" group-title="📺 VTVcab" tvg-logo="https://i.imgur.com/765Y3jw.png",ON Movies
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?id=181
+#EXTINF:-1 tvg-id="onechannel" group-title="📺 VTVcab" tvg-logo="https://i.imgur.com/87JEXEQ.png",ON E Channel
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?id=182
+#EXTINF:-1 tvg-id="oninfotv" group-title="📺 VTVcab" tvg-logo="https://i.imgur.com/jp57P0v.png",ON Info TV
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?id=189
+#EXTINF:-1 tvg-id="onvfamily" group-title="📺 VTVcab" tvg-logo="https://i.imgur.com/R82M53x.png",ON VFamily
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://freem3u.xyz/api/live/play.m3u8?id=187
 #EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/CanTho1.png",Cần Thơ 1
 https://live.canthotv.vn/live/tv/chunklist_w693005420.m3u8
 #EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/CanTho2.png",Cần Thơ 2
