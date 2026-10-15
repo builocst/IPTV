@@ -1,14 +1,14 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml"
-#-----------------------Truyền Hình-------------------------------#
-#EXTINF:-1 group-title="Truyền Hình"tvg-logo="https://i.imgur.com/pTVybK6.png",Vĩnh Long 1
+#-----------------------Truyền Hình Vĩnh Long -------------------------------#
+#EXTINF:-1 group-title="Truyền Hình Vĩnh Long"tvg-logo="https://i.imgur.com/pTVybK6.png",Vĩnh Long 1
 https://dethich.pw/thvl1/index.m3u8
-#EXTINF:-1 group-title="Truyền Hình"tvg-logo="https://i.imgur.com/MsHdGNZ.png",Vĩnh Long 2
+#EXTINF:-1 group-title="Truyền Hình Vĩnh Long"tvg-logo="https://i.imgur.com/MsHdGNZ.png",Vĩnh Long 2
 https://dethich.pw/thvl2/index.m3u8
-#EXTINF:-1 group-title="Truyền Hình"tvg-logo="https://i.imgur.com/44c1Yoz.png",Vĩnh Long 3
+#EXTINF:-1 group-title="Truyền Hình Vĩnh Long"tvg-logo="https://i.imgur.com/44c1Yoz.png",Vĩnh Long 3
 https://dethich.pw/thvl3/index.m3u8
-#EXTINF:-1 group-title="Truyền Hình"tvg-logo="https://i.imgur.com/JWDsJxB.png",Vĩnh Long 4
+#EXTINF:-1 group-title="Truyền Hình Vĩnh Long"tvg-logo="https://i.imgur.com/JWDsJxB.png",Vĩnh Long 4
 https://dethich.pw/thvl4/index.m3u8
-#EXTINF:-1 group-title="Truyền Hình"tvg-logo="http://static3.thvli.vn/assets/thumbnail/2025/08/28/gb1vfh5n_buttonchanels_thvl_2025_sua-1.png",Vĩnh Long 5
+#EXTINF:-1 group-title="Truyền Hình Vĩnh Long"tvg-logo="http://static3.thvli.vn/assets/thumbnail/2025/08/28/gb1vfh5n_buttonchanels_thvl_2025_sua-1.png",Vĩnh Long 5
 https://dethich.pw/thvl5/index.m3u8
 #-----------------------Sự Kiện TV360-------------------------------#
 #EXTINF:-1 tvg-id="tv360plus1" group-title="📺 Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/04/15/22/1776266760359/ba1ca843cd06_480_270.png", TV360+1
